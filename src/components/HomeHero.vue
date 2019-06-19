@@ -9,7 +9,7 @@
             >
                 FOR YOUR TABLE
             </div>
-            <div class="display-1 font-weight-black white--text text-xs-center">
+            <div class="display-1 font-weight-bold white--text text-xs-center">
                 Finally be a foodie at home with fresh, chef-prepared meals
                 delivered daily to your door.
             </div>
@@ -19,11 +19,13 @@
         </v-layout>
     </v-container>
 </template>
+
 <script>
 export default {
     name: 'HomeHero'
 }
 </script>
+
 <style scoped>
 .home-hero {
     background: url('http://source.unsplash.com/0BhSKStVtdM');
