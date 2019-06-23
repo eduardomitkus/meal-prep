@@ -4,6 +4,7 @@ import Home from './views/Home'
 import Menu from './views/Menu'
 import Signin from './views/Signin'
 import Join from './views/Join'
+import About from './views/About'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
             path: '/join',
             name: 'join',
             component: Join
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: About
         }
     ]
 })
